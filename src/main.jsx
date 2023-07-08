@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 
 import Home from './home.jsx'
-import Projects from './Projects.jsx';
+import Projects from './projects.jsx';
 
 import './index.css'
 import {
