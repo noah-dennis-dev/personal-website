@@ -1,0 +1,246 @@
+.hero {
+  margin: 2rem 0;
+}
+
+.hero-introduction {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--green);
+}
+
+.hero-name {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.hero-para {
+  color: var(--gray);
+  font-size: 1rem;
+  max-width: 40rem;
+}
+
+.hero-para a {
+  color: var(--clr-primary);
+  text-decoration: none;
+}
+
+.hero-cta {
+  text-decoration: none;
+  color: var(--green);
+  padding: 0.75rem 1.5rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+  border-radius: 0.5rem;
+  border: 1px var(--green) solid;
+  transition: background-color 250ms;
+}
+
+.hero-cta:hover {
+  background-color: #2C2C2C;
+}
+
+
+.technologies-heading {
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--green);
+  margin-bottom: 0.5rem;
+}
+
+.technologies-para {
+  font-weight: 400;
+  color: var(--gray-light);
+  margin-bottom: 2rem;
+}
+
+.technologies-container {
+  max-width: 50rem;
+  position: relative;
+  display: flex;
+}
+
+#technologies-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+#technologies-list li {
+  list-style: none;
+  color: var(--gray);
+  height: 2.75rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 250ms;
+  padding-right: 1rem;
+}
+
+#technologies-list li:hover {
+  background-color: #252525;
+  color: var(--green);
+}
+
+#technologies-list li::before {
+  content: "";
+  width: 2px;
+  background-color: var(--gray-dark);
+  height: 100%;
+  margin-right: 0.75rem;
+}
+
+#selected-technology-item {
+  width: 2px;
+  height: 2.75rem;
+  background-color: var(--green);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: translate 500ms;
+}
+
+.selected-technology-name span {
+  color: var(--green);
+}
+
+#technologies-titles h3 {
+  font-size: 1.6rem;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  display: none;
+}
+
+#technologies-descriptions p {
+  color: var(--gray);
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
+.heading {
+  color: var(--green);
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.desc {
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+
+.github {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.github-icon-container {
+  width: 10rem;
+  margin-right: 2rem;
+}
+
+.github-icon {
+  height: 10rem;
+  width: 10rem;
+  filter: invert(100%);
+  user-select: none;
+}
+
+.github-para {
+  color: var(--gray);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.github-cta {
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  color: #FFF;
+  background-color: var(--blue);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.github-cta:hover {
+  filter: brightness(1.1);
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  background-color: #222;
+  border-radius: 1rem;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.project img {
+  width: 30%;
+  object-fit: cover;
+}
+
+.project-text h3 {
+  color: var(--white);
+  margin-bottom: 0.5rem;
+
+}
+
+.project-text p {
+  color: var(--gray);
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.action-buttons {
+  display: flex;
+}
+
+.action-buttons a {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: var(--white);
+  display: flex;
+}
+
+.action-buttons a:last-child {
+  margin-right: 0;
+}
+
+.btn-src {
+  background-color: var(--blue);
+}
+
+.btn-live {
+  background-color: var(--pink);
+}
+
+.btn-desc {
+  background-color: var(--orange);
+}
+
+
+@media (max-width: 600px) {
+  .github-icon-container {
+    display: none;
+  }
+}
