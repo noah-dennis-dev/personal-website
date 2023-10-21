@@ -21,7 +21,7 @@ function App() {
         <section className='aoc-section'>
           <img className='aoc-logo' src={adventOfCode} />
           <div>
-            <p className='aoc-para'><a href='https://adventofcode.com/' className='text-green'>Advent of Code</a> Advent of Code is an annual set of Christmas-themed computer programming challenges that follow an Advent calendar. The programming puzzles cover a variety of skill sets and skill levels and can be solved using any programming language.<br /><br />
+            <p className='aoc-para'><a href='https://adventofcode.com/' className='text-green'>Advent of Code</a> is an annual set of Christmas-themed computer programming challenges that follow an Advent calendar. The programming puzzles cover a variety of skill sets and skill levels and can be solved using any programming language.<br /><br />
               This year, in <span className='glow'>2023</span>, I will be taking part in the challenge and uploading my solutions and thoughts to each of the problems.</p>
             <a href='/advent-of-code-2023' className='aoc-cta'>Visit my AoC page</a>
           </div>
