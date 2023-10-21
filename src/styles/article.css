@@ -1,0 +1,8 @@
+.video-player {
+    width: 75%;
+    height: fit-content;
+    aspect-ratio: 16/9;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 3rem;
+}

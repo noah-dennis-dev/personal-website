@@ -1,0 +1,39 @@
+.aoc-table {
+    width: 100%;
+    margin-top: 1rem;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+.aoc-table>thead>tr>th {
+    text-align: left;
+    color: #FFF;
+    padding: 0.5rem 0;
+    border-bottom: 1px #CCC solid;
+}
+
+.aoc-table>tbody>tr>td {
+    font-weight: 300;
+    color: #DDD;
+    padding: 0.5rem 0;
+    border-bottom: 1px #CCC solid;
+}
+
+.aoc-day-page {
+    background-color: #009900;
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Source Code Pro';
+    width: fit-content;
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 0.8rem;
+}
+
+.aoc-day-status {
+    text-align: center;
+    color: #CCC;
+    font-weight: 400;
+    font-family: "Source Code Pro";
+}

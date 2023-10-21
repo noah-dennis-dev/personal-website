@@ -1,0 +1,32 @@
+.articles>a {
+    width: 100%;
+    background-color: #26313e;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.articles>a>span {
+    user-select: none;
+}
+
+.articles>a>span:first-child {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.articles>a>span:nth-child(2) {
+    color: #DDD;
+    font-weight: 300;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.articles>a>span:nth-child(3) {
+    color: #FFF;
+    font-weight: 400;
+}

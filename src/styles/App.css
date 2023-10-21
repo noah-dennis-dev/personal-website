@@ -1,0 +1,43 @@
+.hero {
+    height: calc(100vh - 6rem - 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hero-title {
+    font-size: 8rem;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 2rem;
+}
+
+.hero-para {
+    color: #DDD;
+    font-weight: 400;
+    text-align: center;
+}
+
+.aoc-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.aoc-logo {
+    width: 32rem;
+}
+
+.aoc-cta {
+    margin-top: 1.25rem;
+    background-color: #009900;
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Source Code Pro';
+    width: fit-content;
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
